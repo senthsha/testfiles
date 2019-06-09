@@ -1,0 +1,25 @@
+(base) C:\Users\Dell\Anaconda3\Scripts\UDEMY-TSA-FINAL>cd UDEMY_TSA_FINAL
+
+(base) C:\Users\Dell\Anaconda3\Scripts\UDEMY-TSA-FINAL\UDEMY_TSA_FINAL>conda env - create -f tsa_course_env.yml
+usage: conda-env [-h] {attach,create,export,list,remove,upload,update} ...
+conda-env: error: invalid choice: '-' (choose from 'attach', 'create', 'export', 'list', 'remove', 'upload', 'update')
+
+(base) C:\Users\Dell\Anaconda3\Scripts\UDEMY-TSA-FINAL\UDEMY_TSA_FINAL>conda env create -f tsa_course_env.yml
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: / DEBUG menuinst_win32:__init__(199): Menu: name: 'Anaconda${PY_VER} ${PLATFORM}', prefix: 'C:\Users\Dell\Anaconda3\envs\tsa_course', env_name: 'tsa_course', mode: 'None', used_mode: 'user'
+DEBUG menuinst_win32:create(323): Shortcut cmd is C:\Users\Dell\Anaconda3\python.exe, args are ['C:\\Users\\Dell\\Anaconda3\\cwp.py', 'C:\\Users\\Dell\\Anaconda3\\envs\\tsa_course', 'C:\\Users\\Dell\\Anaconda3\\envs\\tsa_course\\python.exe', 'C:\\Users\\Dell\\Anaconda3\\envs\\tsa_course\\Scripts\\jupyter-notebook-script.py', '"%USERPROFILE%/"']
+done
+pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.
+Collecting pmdarima==1.1.0 (from -r C:\Users\Dell\Anaconda3\Scripts\UDEMY-TSA-FINAL\UDEMY_TSA_FINAL\condaenv.sevn471l.requirements.txt (line 1))
+  Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/pmdarima/
+  Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/pmdarima/
+  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/pmdarima/
+  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/pmdarima/
+  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/pmdarima/
+  Could not fetch URL https://pypi.org/simple/pmdarima/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/pmdarima/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping
+  Could not find a version that satisfies the requirement pmdarima==1.1.0 (from -r C:\Users\Dell\Anaconda3\Scripts\UDEMY-TSA-FINAL\UDEMY_TSA_FINAL\condaenv.sevn471l.requirements.txt (line 1)) (from versions: )
+No matching distribution found for pmdarima==1.1.0 (from -r C:\Users\Dell\Anaconda3\Scripts\UDEMY-TSA-FINAL\UDEMY_TSA_FINAL\condaenv.sevn471l.requirements.txt (line 1))
+
+CondaValueError: pip returned an error
